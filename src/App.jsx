@@ -1,12 +1,8 @@
-import React from 'react';
 import './App.css';
+import Page from './components/Page'
 
 function App() {
-  return (
-    <h1>
-      The Space Odyssey
-    </h1>
-  );
+  return <Page />
 }
 
 export default App;
